@@ -4,8 +4,8 @@ const {
     movcatController
 } = require('../controllers');
 
-router.get('/getlistmovcategory', movcatController.getListMovCategory);
-router.post('/addmovcategory', movcatController.addMovCategory);
-router.delete('/deletemovcategory', movcatController.deleteMovCategory);
+router.get('/getlistmovcategory', movcatController.getListMoviCategory);
+router.post('/addmovcategory', movcatController.addMoviCategory);
+router.delete('/deletemovcategory', movcatController.deleteMoviCategory);
 
 module.exports = router;
